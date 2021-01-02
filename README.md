@@ -26,7 +26,7 @@ To measure how well the ukf filter performs, RMSE(root mean squared error) is us
 |Velocity(vx,vy) RMSE | Less than Thresholds | Over than Thresholds | Over the Threshdolds |
 |Both| best performace| px,py meets the spec but slightly over vx and vy | all four px, py, vx, vy is way over the thresholds|
 
-By using both Lidar and Radar sensor fusion, px, py, vx, and vy RMSE is less than the ground truth. For separate sensor test, above results shows RADAR measurements are tend to be more more noisy than the LIDAR measurements. Thus using both sensor fusion can reduce the noise/errors from sensors.
+By using both Lidar and Radar sensor fusion, px, py, vx, and vy RMSE is less than the ground truth. For separate sensor test, above results shows RADAR measurements are tend to be more more noisy than the LIDAR measurements. Thus Sensor fusion shows better results than using only one sensor typ and can reduce the noise/errors from sensors.
 
 ## Implementation Approach
 <img src="ukf.png" width="700"  />
