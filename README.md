@@ -93,8 +93,9 @@ The accuracy is being calculated by the RMSE, root mean squared error over each 
 ---
 ## Running Environment
 ### Requirements to run the project
-1. gcc/g++ >= 5.4
-2.  [PCL 1.2](https://github.com/PointCloudLibrary/pcl) The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing.
+* gcc/g++ >= 5.4
+* [PCL 1.2](https://github.com/PointCloudLibrary/pcl) The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing.
+* [Eigen](http://eigen.tuxfamily.org/.) C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
 
 ---
 ## Code Style
