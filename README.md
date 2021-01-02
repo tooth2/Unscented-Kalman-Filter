@@ -21,10 +21,10 @@ To measure how well the ukf filter performs, RMSE(root mean squared error) is us
 [output_video](ukf.mp4)
 
 |Criteria|Sensor_Fusion(both Lidar and Radar)| Lidar only mode| Radar only mode|
-|:---|:--:|:--:|:--:|
-|Position(px, py) RMSE |Less than Thresholds| Less than Thresholds| Over the Threshdolds|
-|Velocity(vx,vy) RMSE| |Less than Thresholds| Over than Thresholds| Over the Threshdolds|
-|Both| best performace| px,py meets the spec but slightly over vx and vy |all four px, py, vx, vy is way over the thresholds|
+|:--|:--:|:--:|:--:|
+|Position(px,py) RMSE | Less than Thresholds | Less than Thresholds | Over the Threshdolds |
+|Velocity(vx,vy) RMSE | Less than Thresholds | Over than Thresholds | Over the Threshdolds |
+|Both| best performace| px,py meets the spec but slightly over vx and vy | all four px, py, vx, vy is way over the thresholds|
 
 This shows RADAR measurements are tend to be more more noisy than the LIDAR measurements. Thus using both sensor fusion can reduce the noise/errors from sensors.
 
