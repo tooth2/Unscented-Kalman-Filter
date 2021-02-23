@@ -90,6 +90,9 @@ The accuracy is being calculated by the RMSE, root mean squared error over each 
 - estimation x, y position: [estimate_x, estimate_y]
 - calculated RMSE: [rmse_x, rmse_y, rmse_vx, rmse_vy]
 
+### Generating Additional Data
+for instance lidar markers could be the (x,y) center of bounding boxes by scanning the PCD environment and performing clustering
+
 ---
 ## Running Environment
 ### Requirements to run the project
@@ -102,9 +105,10 @@ The accuracy is being calculated by the RMSE, root mean squared error over each 
 Followed [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
 ---
-## Addional Task: Generating Additional Data
-for instance lidar markers could be the (x,y) center of bounding boxes by scanning the PCD environment and performing clustering
-- [x]Extended Kalman Filter
-- [x]Unscented Kalman Filter
-- [ ]Lidar Obstacle Detection
+## Related Task: Vehicle Tracking/Obstacle Detection 
+- [x][Kalman Filter](https://github.com/tooth2/Kalman-Filter)
+- [x][Extended Kalman Filter](https://github.com/tooth2/Extended-Kalman-Filter)
+- [x][Unscented Kalman Filter](https://github.com/tooth2/Unscented-Kalman-Filter)
+- [x][Lidar Obstacle Detection](https://github.com/tooth2/Lidar-Obstacle-Detection)
+- [x][Lidar/Camera Sesnor Fusion 3D Obtacle Detection](https://github.com/tooth2/3D-Sensor-Fusion)
 
