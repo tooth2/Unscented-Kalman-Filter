@@ -106,9 +106,9 @@ Followed [Google's C++ style guide](https://google.github.io/styleguide/cppguide
 
 ---
 ## Related Task: Vehicle Tracking/Obstacle Detection 
-- [x][Kalman Filter](https://github.com/tooth2/Kalman-Filter)
-- [x][Extended Kalman Filter](https://github.com/tooth2/Extended-Kalman-Filter)
-- [x][Unscented Kalman Filter](https://github.com/tooth2/Unscented-Kalman-Filter)
-- [x][Lidar Obstacle Detection](https://github.com/tooth2/Lidar-Obstacle-Detection)
-- [x][Lidar/Camera Sesnor Fusion 3D Obtacle Detection](https://github.com/tooth2/3D-Sensor-Fusion)
+- [x] [Kalman Filter](https://github.com/tooth2/Kalman-Filter)
+- [x] [Extended Kalman Filter](https://github.com/tooth2/Extended-Kalman-Filter)
+- [x] [Unscented Kalman Filter](https://github.com/tooth2/Unscented-Kalman-Filter)
+- [x] [Lidar Obstacle Detection](https://github.com/tooth2/Lidar-Obstacle-Detection)
+- [x] [Lidar/Camera Sesnor Fusion 3D Obtacle Detection](https://github.com/tooth2/3D-Sensor-Fusion)
 
